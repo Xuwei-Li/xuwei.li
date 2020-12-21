@@ -7,6 +7,17 @@
     text-decoration: none;
 }
 
+/* Small resolution */
+@media only screen and (max-width: 600px) {
+    .fab {
+        padding: 10px;
+        font-size: 20px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
 /* Add a hover effect */
 .fab:hover {
     opacity: 0.7;
@@ -24,7 +35,8 @@
 }
 
 .fa-instagram {
-    background: #F24D5D; /* #C30080 */
+    background: #F24D5D;
+    /* #C30080 */
     color: white;
 }
 
@@ -45,18 +57,30 @@
 
 /* Profile style */
 #profile {
-  width: 560px;
-  height: 646px;
-  background-color: transparent;
-  position: absolute; /* absolute, fixed */
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
-  max-width: 100%;
-  max-height: 100%;
-  overflow: auto;
-  z-index: 19860214;
+    width: 560px;
+    height: 646px;
+    background-color: transparent;
+    position: absolute; /* absolute, fixed */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /* Solves a problem in which the content is being cut when the div is smaller than its' wrapper: */
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    z-index: 19860214;
+}
+
+/* Small resolution */
+@media only screen and (max-width: 600px) {
+    #profile {
+        width: 320px;
+        height: 372px;
+    }
+
+    #profile .avatar img {
+        width: 320px;
+    }
 }
