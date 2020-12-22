@@ -58,7 +58,7 @@
 /* Profile style */
 #profile {
     width: 560px;
-    height: 646px;
+    height: 696px; /* 572(576) + 70 + 40+10 */
     background-color: transparent;
     position: absolute; /* absolute, fixed */
     left: 0;
@@ -66,7 +66,6 @@
     top: 0;
     bottom: 0;
     margin: auto;
-    /* Solves a problem in which the content is being cut when the div is smaller than its' wrapper: */
     max-width: 100%;
     max-height: 100%;
     overflow: auto;
@@ -77,10 +76,20 @@
 @media only screen and (max-width: 600px) {
     #profile {
         width: 320px;
-        height: 372px;
+        height: 441px; /* 327(331) + 40 + 60+10 */
     }
 
     #profile .avatar img {
         width: 320px;
     }
+}
+
+#profile #web {
+    margin-top: 10px;
+}
+
+.favicon,
+.favicon img {
+    width: 16px;
+    height: 16px;
 }
