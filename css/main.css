@@ -18,6 +18,17 @@
     }
 }
 
+@media only screen and (max-height: 736px) {
+    .fab {
+        padding: 10px;
+        font-size: 20px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+
 /* Add a hover effect */
 .fab:hover {
     opacity: 0.7;
@@ -68,7 +79,7 @@
     margin: auto;
     max-width: 100%;
     max-height: 100%;
-    overflow: auto;
+    overflow: visible;
     z-index: 19860214;
 }
 
@@ -77,6 +88,19 @@
     #profile {
         width: 320px;
         height: 441px; /* 327(331) + 40 + 60+10 */
+        overflow: auto;
+    }
+
+    #profile .avatar img {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-height: 736px) {
+    #profile {
+        width: 320px;
+        height: 441px; /* 327(331) + 40 + 60+10 */
+        overflow: auto;
     }
 
     #profile .avatar img {
