@@ -135,3 +135,9 @@
     width: 16px;
     height: 16px;
 }
+
+/* Mouse hover effect for favicon links */
+a.favicon:hover img {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
