@@ -71,7 +71,7 @@
     width: 560px;
     height: 696px; /* 572(576) + 70 + 40+10 */
     background-color: transparent;
-    position: absolute; /* absolute, fixed */
+    position: fixed; /* absolute, fixed */
     left: 0;
     right: 0;
     top: 0;
