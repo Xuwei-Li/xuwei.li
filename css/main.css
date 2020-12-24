@@ -69,7 +69,7 @@
 /* Profile style */
 #profile {
     width: 560px;
-    height: 696px; /* 572(576) + 70 + 40+10 */
+    height: 716px; /* 572(576) + 70 + 40+10 + 20*/
     background-color: transparent;
     position: fixed; /* absolute, fixed */
     left: 0;
@@ -87,7 +87,7 @@
 @media only screen and (max-width: 600px) {
     #profile {
         width: 320px;
-        height: 441px; /* 327(331) + 40 + 60+10 */
+        height: 461px; /* 327(331) + 40 + 60+10 + 20 */
         overflow: auto;
     }
 
@@ -99,7 +99,7 @@
 @media only screen and (max-height: 736px) {
     #profile {
         width: 320px;
-        height: 441px; /* 327(331) + 40 + 60+10 */
+        height: 461px; /* 327(331) + 40 + 60+10 + 20 */
         overflow: auto;
     }
 
