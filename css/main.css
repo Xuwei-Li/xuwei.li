@@ -1,3 +1,15 @@
+/* Inline frame background */
+#background {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+}
+
 /* Style all font awesome brand icons */
 .fab {
     padding: 20px;
