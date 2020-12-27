@@ -20,7 +20,7 @@
 }
 
 /* Small resolution */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 580px) {
     .fab {
         padding: 10px;
         font-size: 20px;
@@ -30,7 +30,7 @@
     }
 }
 
-@media only screen and (max-height: 736px) {
+@media only screen and (max-height: 756px) {
     .fab {
         padding: 10px;
         font-size: 20px;
@@ -81,7 +81,7 @@
 /* Profile style */
 #profile {
     width: 560px;
-    height: 716px; /* 572(576) + 70 + 40+10 + 20*/
+    height: 736px; /* 572(576) + 70 + 40+10 + 20 + 20 */
     background-color: transparent;
     position: fixed; /* absolute, fixed */
     left: 0;
@@ -96,10 +96,10 @@
 }
 
 /* Small resolution */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 580px) {
     #profile {
         width: 320px;
-        height: 461px; /* 327(331) + 40 + 60+10 + 20 */
+        height: 481px; /* 327(331) + 40 + 60+10 + 20 + 20 */
         overflow: auto;
     }
 
@@ -108,10 +108,10 @@
     }
 }
 
-@media only screen and (max-height: 736px) {
+@media only screen and (max-height: 756px) {
     #profile {
         width: 320px;
-        height: 461px; /* 327(331) + 40 + 60+10 + 20 */
+        height: 481px; /* 327(331) + 40 + 60+10 + 20 + 20 */
         overflow: auto;
     }
 
@@ -120,7 +120,7 @@
     }
 }
 
-@media only screen and (min-width: 350px) and (min-height: 500px) {
+@media only screen and (min-width: 340px) and (min-height: 501px) {
     #profile {
         overflow: visible;
     }
