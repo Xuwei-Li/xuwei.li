@@ -103,6 +103,7 @@
             <a class="favicon" href="https://coronavirus.gov/"><img src="https://coronavirus.gov/favicon.ico" alt="coronavirus.gov" /></a>
             <a class="favicon" href="https://dhs.gov/"><img src="https://dhs.gov/favicon.ico" alt="dhs.gov" /></a>
             <a class="favicon" href="https://www.eia.gov/"><img src="https://www.eia.gov/favicon.ico" alt="eia.gov" /></a>
+            <a class="favicon" href="https://fbi.gov/"><img src="https://fbi.gov/favicon.ico" alt="fbi.gov" /></a>
             <!-- <a class="favicon" href="https://www.evus.gov/"><img src="https://www.evus.gov/favicon.ico" alt="evus.gov" /></a> -->
             <a class="favicon" href="https://federalreserve.gov/"><img src="https://federalreserve.gov/favicon.ico" alt="federalreserve.gov" /></a>
             <a class="favicon" href="https://nasa.gov/"><img src="https://nasa.gov/favicon.ico" alt="nasa.gov" /></a>
@@ -148,7 +149,20 @@
     </div>
     <!-- JavaScript -->
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c4cb366f2cdc47c3be2419a9bd7ffd5f"}'></script><!-- End Cloudflare Web Analytics -->
-    <script src="/js/scripts.js?v=3"></script>
+    <script src="/js/scripts.js?v=4"></script>
+    <!-- Service Worker -->
+    <script>
+        if (navigator.serviceWorker) {
+            navigator.serviceWorker.register('/service-worker.js?v=2.1').then(function (registration) {
+                // #DEBUG
+                console.log('ServiceWorker registration successful with scope:', registration.scope);
+            }).catch(function (error) {
+                // #DEBUG
+                console.log('ServiceWorker registration failed:', errror);
+            });
+        }
+    </script>
+    <!-- End Service Worker -->
 </body>
 
 </html>

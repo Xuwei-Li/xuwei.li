@@ -1,6 +1,6 @@
 // Progressive Web Application Service Worker
 
-const VERSION = 'v2';
+const VERSION = 'v2.1';
 
 var artifacts = [
     '/',
@@ -10,7 +10,7 @@ var artifacts = [
     '/css/background.css?v=1',
     '/css/main.css?v=12',
     '/images/avatar.jpg',
-    '/js/scripts.js?v=3',
+    '/js/scripts.js?v=4',
 ];
 
 // Clear cache promise
