@@ -1,6 +1,6 @@
 // Progressive Web Application Service Worker
 
-const VERSION = 'v2.2';
+const VERSION = 'v2.3';
 
 var artifacts = [
     '/',
