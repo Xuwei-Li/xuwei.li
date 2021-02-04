@@ -99,7 +99,7 @@
 @media only screen and (max-width: 580px) {
     #profile {
         width: 320px;
-        height: 541px; /* 327(331) + 40 + 60+10 + 20 + 20 + 20 + 20 + 20 */
+        height: 561px; /* 327(331) + 40 + 60+10 + 20 + 20 + 20 + 20 + 20 + 20 */
         overflow: auto;
     }
 
@@ -111,7 +111,7 @@
 @media only screen and (max-height: 816px) {
     #profile {
         width: 320px;
-        height: 541px; /* 327(331) + 40 + 60+10 + 20 + 20 + 20 + 20 + 20 */
+        height: 561px; /* 327(331) + 40 + 60+10 + 20 + 20 + 20 + 20 + 20 + 20 */
         overflow: auto;
     }
 
@@ -140,4 +140,9 @@
 a.favicon:hover img {
     transform: scale(1.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Service */
+#service {
+    color: #FFFFFF;
 }

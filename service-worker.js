@@ -1,6 +1,6 @@
 // Progressive Web Application Service Worker
 
-const VERSION = 'v2.3';
+const VERSION = 'v2.4';
 
 var artifacts = [
     '/',
@@ -8,7 +8,7 @@ var artifacts = [
     '/favicon.ico',
     '/manifest.json',
     '/css/background.css?v=1',
-    '/css/main.css?v=13',
+    '/css/main.css?v=14',
     '/images/avatar.jpg',
     '/js/scripts.js?v=4',
 ];
