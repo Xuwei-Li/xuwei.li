@@ -8,7 +8,7 @@ var artifacts = [
     '/favicon.ico',
     '/manifest.json',
     '/css/background.css?v=1',
-    '/css/main.css?v=14',
+    '/css/main.css?v=15',
     '/images/avatar.jpg',
     '/js/scripts.js?v=4',
 ];

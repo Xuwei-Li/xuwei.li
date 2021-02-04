@@ -81,7 +81,7 @@
 /* Profile style */
 #profile {
     width: 560px;
-    height: 796px; /* 572(576) + 70 + 40+10 + 20 + 20 + 20 + 20 + 20 */
+    height: 897px; /* 572(576) + 70 + 40+10 + 20 + 20 + 20 + 20 + 20 + 85+16 */
     background-color: transparent;
     position: fixed; /* absolute, fixed */
     left: 0;
@@ -99,7 +99,7 @@
 @media only screen and (max-width: 580px) {
     #profile {
         width: 320px;
-        height: 561px; /* 327(331) + 40 + 60+10 + 20 + 20 + 20 + 20 + 20 + 20 */
+        height: 660px; /* 327(331) + 40 + 60+10 + 20 + 20 + 20 + 20 + 20 + 103+16 */
         overflow: auto;
     }
 
@@ -108,10 +108,10 @@
     }
 }
 
-@media only screen and (max-height: 816px) {
+@media only screen and (max-height: 917px) {
     #profile {
         width: 320px;
-        height: 561px; /* 327(331) + 40 + 60+10 + 20 + 20 + 20 + 20 + 20 + 20 */
+        height: 660px; /* 327(331) + 40 + 60+10 + 20 + 20 + 20 + 20 + 20 + 103+16 */
         overflow: auto;
     }
 
@@ -120,7 +120,7 @@
     }
 }
 
-@media only screen and (min-width: 340px) and (min-height: 561px) {
+@media only screen and (min-width: 340px) and (min-height: 660px) {
     #profile {
         overflow: visible;
     }
