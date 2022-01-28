@@ -6,21 +6,21 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="application-name" content="Xuwei Li">
     <meta name="author" content="Xuwei Li">
-    <meta name="description" content="Xuwei Li web homepage." />
+    <meta name="description" content="Xuwei Li Web App." />
     <meta name="generator" content="Visual Studio Code" />
     <meta name="keywords" content="Xuwei Li, xuwei.li, Xuwei-Li, XL, XL19860214, 19860214, 860214, 1986, 0214">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Xuwei Li</title>
     <link rel="canonical" href="https://xuwei.li/" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="/manifest.json?v=1" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <link rel="stylesheet" href="/css/main.css?v=15" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="icon" href="/icons/icon-16x16.png" sizes="16x16" type="image/png" />
-    <link rel="icon" href="/icons/icon-32x32.png" sizes="32x32" type="image/png" />
-    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" sizes="180x180" type="image/png" />
-    <link rel="icon" href="/icons/icon-192x192.png" sizes="192x192" type="image/png" />
-    <link rel="icon" href="/icons/icon-512x512.png" sizes="512x512" type="image/png" />
+    <link rel="stylesheet" href="/css/main.css?v=16" />
+    <link rel="shortcut icon" href="/favicon.ico?v=1" />
+    <link rel="icon" href="/icons/icon-16x16.png?v=1" sizes="16x16" type="image/png" />
+    <link rel="icon" href="/icons/icon-32x32.png?v=1" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png?v=1" sizes="180x180" type="image/png" />
+    <link rel="icon" href="/icons/icon-192x192.png?v=1" sizes="192x192" type="image/png" />
+    <link rel="icon" href="/icons/icon-512x512.png?v=1" sizes="512x512" type="image/png" />
 </head>
 
 <body>
@@ -28,7 +28,9 @@
 
     <div id="profile" class="profile">
         <div class="avatar">
-            <img src="/images/avatar.jpg" alt="Xuwei Li" />
+            <a href="https://top.xuwei.li">
+                <img src="/images/avatar.jpg?v=1" alt="Xuwei Li" title="Check out who tops the internet." />
+            </a>
         </div>
         <div class="social-links">
             <a class="fab fa-facebook" href="https://facebook.com/XL19860214"></a>
@@ -132,7 +134,8 @@
             <a class="favicon" href="https://uscg.mil"><img src="https://www.uscg.mil/Portals/0/Images/favicon.ico" alt="uscg.mil" /></a>
         </div>
         <div id="service">
-            <p>$1.00 USD for each day, I officially recognize subscriber as an existence of this world.</p>
+            <p>By letting me always control 50.002% of all you have continuously nonstop, I officially recognize you as an existence of my world.</p>
+            <p>US$1.00 for each day as additional tax charge.</p>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick">
                 <input type="hidden" name="hosted_button_id" value="M34J3JXJH3LD8">
@@ -172,7 +175,7 @@
     <!-- Service Worker -->
     <script>
         if (navigator.serviceWorker) {
-            navigator.serviceWorker.register('/service-worker.js?v=2.5').then(function (registration) {
+            navigator.serviceWorker.register('/service-worker.js?v=2.6').then(function (registration) {
                 // #DEBUG
                 console.log('ServiceWorker registration successful with scope:', registration.scope);
             }).catch(function (error) {

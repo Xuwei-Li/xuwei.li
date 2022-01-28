@@ -1,15 +1,16 @@
 // Progressive Web Application Service Worker
 
-const VERSION = 'v2.4';
+// Move forward for each new update for /service-worker.js?v=${VERSION}
+const VERSION = 'v2.6';
 
 var artifacts = [
     '/',
     '/background.html',
-    '/favicon.ico',
-    '/manifest.json',
+    '/favicon.ico?v=1',
+    '/manifest.json?v=1',
     '/css/background.css?v=1',
-    '/css/main.css?v=15',
-    '/images/avatar.jpg',
+    '/css/main.css?v=16',
+    '/images/avatar.jpg?v=1',
     '/js/scripts.js?v=4',
 ];
 
